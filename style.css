@@ -1,0 +1,163 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.hr-style{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+/*Header Area Start*/
+header{
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+    height: 100vh;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+    border-radius: 0px 15px 0px 15px;
+}
+.navbar-icon{
+    color: white;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.nav-link:hover{
+   color: black;
+    background: #f0f5f8;
+    transform: scale(1.1);
+}
+#banner h1{
+    font-size: 3.5rem;
+    font-family: 'Handlee', cursive;
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+/*Header Area End*/
+
+/* Features Section Start*/
+#feature-section{
+    padding: 5% 10%;
+    background-color: #FAEEE0;
+}
+.features-col{
+    border: 1px solid #FFB085;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: 0.4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.3);
+}
+.icon-style{
+    background-color: rosybrown;
+    padding: 10px;
+    color: white;
+    margin: 5px 0px;
+}
+/* Features Section End*/
+
+/* About Me Section Start*/
+#about-me{
+    padding: 5% 10%;
+    background-color: #FAEEE0;
+}
+.description h3{
+    font-weight: 700;
+}
+.description p{
+    font-weight: lighter;
+    margin: 2px;
+}
+.description a{
+    text-decoration: underline;
+    color: black;
+}
+
+.Achive-description h3{
+    font-weight: 700;
+}
+.Achive-description p{
+    font-weight: lighter;
+   
+}
+
+/* About Me Section End*/
+
+/* Tutorial Section Start*/
+#tutorial{
+    padding: 5% 10%;
+    background-color: #FF9B6A;
+}
+.card{
+    border: 1px solid #FFB085;
+    border-radius: 20px 0px 20px 0px;
+    transition: 0.4s;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px rgba(0, 0, 0, 0.3);
+}
+/* Tutorial Section End*/
+
+/* Feedback Section Start*/
+#feedback{
+    padding: 5% 10%;
+    background-color: #EED6C4;
+}
+.feedback-img{
+    width: 120px;
+    height: 120px;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 14%;
+}
+/* Feedback Section End*/
+
+/* Contact Section Start*/
+#contactForm{
+    padding: 5% 10%;
+    background-color:#E8E1D9
+    
+}
+/* Contact Section End*/
+
+/* Footer Section Start*/
+.links{
+    color:gray
+    
+}
